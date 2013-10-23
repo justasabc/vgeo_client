@@ -1,0 +1,363 @@
+<llsd>
+    <map>
+    <key>CacheValidateCounter</key>
+        <map>
+        <key>Comment</key>
+            <string>Used to distribute cache validation</string>
+        <key>Type</key>
+            <string>U32</string>
+        <key>Value</key>
+            <integer>16</integer>
+        </map>
+    <key>CameraPosOnLogout</key>
+        <map>
+        <key>Comment</key>
+            <string>Camera position when last logged out (global coordinates)</string>
+        <key>Type</key>
+            <string>Vector3D</string>
+        <key>Value</key>
+            <array>
+                <real>256360.06130242348</real>
+                <real>256182.58160495758</real>
+                <real>246.73722839355469</real>
+            </array>
+        </map>
+    <key>CurrentGrid</key>
+        <map>
+        <key>Comment</key>
+            <string>Currently Selected Grid</string>
+        <key>Type</key>
+            <string>String</string>
+        <key>Value</key>
+            <string>util.agni.lindenlab.com</string>
+        </map>
+    <key>FirstLoginThisInstall</key>
+        <map>
+        <key>Comment</key>
+            <string>Specifies that you have not logged in with the viewer since you performed a clean install</string>
+        <key>Type</key>
+            <string>Boolean</string>
+        <key>Value</key>
+            <boolean>0</boolean>
+        </map>
+    <key>FirstRunThisInstall</key>
+        <map>
+        <key>Comment</key>
+            <string>Specifies that you have not run the viewer since you performed a clean install</string>
+        <key>Type</key>
+            <string>Boolean</string>
+        <key>Value</key>
+            <boolean>0</boolean>
+        </map>
+    <key>FocusPosOnLogout</key>
+        <map>
+        <key>Comment</key>
+            <string>Camera focus point when last logged out (global coordinates)</string>
+        <key>Type</key>
+            <string>Vector3D</string>
+        <key>Value</key>
+            <array>
+                <real>256363.38650758629</real>
+                <real>256180.35831669508</real>
+                <real>245.85249330418483</real>
+            </array>
+        </map>
+    <key>HttpProxyType</key>
+        <map>
+        <key>Comment</key>
+            <string>Proxy type to use for HTTP operations</string>
+        <key>Type</key>
+            <string>String</string>
+        <key>Value</key>
+            <string>None</string>
+        </map>
+    <key>LastFeatureVersion</key>
+        <map>
+        <key>Comment</key>
+            <string>[DO NOT MODIFY] Feature Table Version number for tracking rendering system changes</string>
+        <key>Type</key>
+            <string>S32</string>
+        <key>Value</key>
+            <integer>32</integer>
+        </map>
+    <key>LastGPUString</key>
+        <map>
+        <key>Comment</key>
+            <string>[DO NOT MODIFY] previous GPU id string for tracking hardware changes</string>
+        <key>Type</key>
+            <string>String</string>
+        <key>Value</key>
+            <string>NVIDIA GTS 250</string>
+        </map>
+    <key>LastPrefTab</key>
+        <map>
+        <key>Comment</key>
+            <string>Last selected tab in preferences window</string>
+        <key>Type</key>
+            <string>S32</string>
+        <key>Value</key>
+            <integer>8</integer>
+        </map>
+    <key>LastRunVersion</key>
+        <map>
+        <key>Comment</key>
+            <string>Version number of last instance of the viewer that you ran</string>
+        <key>Type</key>
+            <string>String</string>
+        <key>Value</key>
+            <string>Second Life Developer 3.3.3.0</string>
+        </map>
+    <key>LocalCacheVersion</key>
+        <map>
+        <key>Comment</key>
+            <string>Version number of cache</string>
+        <key>Type</key>
+            <string>S32</string>
+        <key>Value</key>
+            <integer>7</integer>
+        </map>
+    <key>MapScale</key>
+        <map>
+        <key>Comment</key>
+            <string>World map zoom level (pixels per region)</string>
+        <key>Type</key>
+            <string>F32</string>
+        <key>Value</key>
+            <real>256</real>
+        </map>
+    <key>MigrateCacheDirectory</key>
+        <map>
+        <key>Comment</key>
+            <string>Check for old version of disk cache to migrate to current location</string>
+        <key>Type</key>
+            <string>Boolean</string>
+        <key>Value</key>
+            <boolean>0</boolean>
+        </map>
+    <key>NumSessions</key>
+        <map>
+        <key>Comment</key>
+            <string>Number of successful logins to Second Life</string>
+        <key>Type</key>
+            <string>S32</string>
+        <key>Value</key>
+            <integer>18</integer>
+        </map>
+    <key>PostFirstLoginIntroViewed</key>
+        <map>
+        <key>Comment</key>
+            <string>Flag indicating if user has seen intro presenatation after first time users first login</string>
+        <key>Type</key>
+            <string>Boolean</string>
+        <key>Value</key>
+            <boolean>1</boolean>
+        </map>
+    <key>ProbeHardwareOnStartup</key>
+        <map>
+        <key>Comment</key>
+            <string>Query current hardware configuration on application startup</string>
+        <key>Type</key>
+            <string>Boolean</string>
+        <key>Value</key>
+            <boolean>0</boolean>
+        </map>
+    <key>RenderAnisotropic</key>
+        <map>
+        <key>Comment</key>
+            <string>Render textures using anisotropic filtering</string>
+        <key>Type</key>
+            <string>Boolean</string>
+        <key>Value</key>
+            <boolean>1</boolean>
+        </map>
+    <key>RenderAvatarCloth</key>
+        <map>
+        <key>Comment</key>
+            <string>Controls if avatars use wavy cloth</string>
+        <key>Type</key>
+            <string>Boolean</string>
+        <key>Value</key>
+            <boolean>0</boolean>
+        </map>
+    <key>RenderAvatarLODFactor</key>
+        <map>
+        <key>Comment</key>
+            <string>Controls level of detail of avatars (multiplier for current screen area when calculated level of detail)</string>
+        <key>Type</key>
+            <string>F32</string>
+        <key>Value</key>
+            <real>1</real>
+        </map>
+    <key>RenderDeferredSSAO</key>
+        <map>
+        <key>Comment</key>
+            <string>Execute screen space ambient occlusion shader in deferred renderer.</string>
+        <key>Type</key>
+            <string>Boolean</string>
+        <key>Value</key>
+            <boolean>0</boolean>
+        </map>
+    <key>RenderFSAASamples</key>
+        <map>
+        <key>Comment</key>
+            <string>Number of samples to use for FSAA (0 = no AA).</string>
+        <key>Type</key>
+            <string>U32</string>
+        <key>Value</key>
+            <integer>2</integer>
+        </map>
+    <key>RenderFarClip</key>
+        <map>
+        <key>Comment</key>
+            <string>Distance of far clip plane from camera (meters)</string>
+        <key>Type</key>
+            <string>F32</string>
+        <key>Value</key>
+            <real>128</real>
+        </map>
+    <key>RenderQualityPerformance</key>
+        <map>
+        <key>Comment</key>
+            <string>Which graphics settings you&apos;ve chosen</string>
+        <key>Type</key>
+            <string>U32</string>
+        <key>Value</key>
+            <integer>2</integer>
+        </map>
+    <key>RenderReflectionDetail</key>
+        <map>
+        <key>Comment</key>
+            <string>Detail of reflection render pass.</string>
+        <key>Type</key>
+            <string>S32</string>
+        <key>Value</key>
+            <integer>0</integer>
+        </map>
+    <key>RenderShadowDetail</key>
+        <map>
+        <key>Comment</key>
+            <string>Detail of shadows.</string>
+        <key>Type</key>
+            <string>S32</string>
+        <key>Value</key>
+            <integer>0</integer>
+        </map>
+    <key>RenderTerrainDetail</key>
+        <map>
+        <key>Comment</key>
+            <string>Detail applied to terrain texturing (0 = none, 1 or 2 = full)</string>
+        <key>Type</key>
+            <string>S32</string>
+        <key>Value</key>
+            <integer>1</integer>
+        </map>
+    <key>RenderTerrainLODFactor</key>
+        <map>
+        <key>Comment</key>
+            <string>Controls level of detail of terrain (multiplier for current screen area when calculated level of detail)</string>
+        <key>Type</key>
+            <string>F32</string>
+        <key>Value</key>
+            <real>2</real>
+        </map>
+    <key>RenderVolumeLODFactor</key>
+        <map>
+        <key>Comment</key>
+            <string>Controls level of detail of primitives (multiplier for current screen area when calculated level of detail)</string>
+        <key>Type</key>
+            <string>F32</string>
+        <key>Value</key>
+            <real>1.125</real>
+        </map>
+    <key>ShowStartLocation</key>
+        <map>
+        <key>Comment</key>
+            <string>Display starting location menu on login screen</string>
+        <key>Type</key>
+            <string>Boolean</string>
+        <key>Value</key>
+            <boolean>1</boolean>
+        </map>
+    <key>TextureMemory</key>
+        <map>
+        <key>Comment</key>
+            <string>Amount of memory to use for textures in MB (0 = autodetect)</string>
+        <key>Type</key>
+            <string>S32</string>
+        <key>Value</key>
+            <integer>512</integer>
+        </map>
+    <key>ThrottleBandwidthKBPS</key>
+        <map>
+        <key>Comment</key>
+            <string>Maximum allowable downstream bandwidth (kilo bits per second)</string>
+        <key>Type</key>
+            <string>F32</string>
+        <key>Value</key>
+            <real>750</real>
+        </map>
+    <key>UpdaterServiceSetting</key>
+        <map>
+        <key>Comment</key>
+            <string>Configure updater service.</string>
+        <key>Type</key>
+            <string>U32</string>
+        <key>Value</key>
+            <string>0</string>
+        </map>
+    <key>UseExternalBrowser</key>
+        <map>
+        <key>Comment</key>
+            <string>Use default browser when opening web pages instead of in-world browser.</string>
+        <key>Type</key>
+            <string>Boolean</string>
+        <key>Value</key>
+            <boolean>0</boolean>
+        </map>
+    <key>VFSOldSize</key>
+        <map>
+        <key>Comment</key>
+            <string>[DO NOT MODIFY] Controls resizing of local file cache</string>
+        <key>Type</key>
+            <string>U32</string>
+        <key>Value</key>
+            <integer>102</integer>
+        </map>
+    <key>VFSSalt</key>
+        <map>
+        <key>Comment</key>
+            <string>[DO NOT MODIFY] Controls local file caching behavior</string>
+        <key>Type</key>
+            <string>U32</string>
+        <key>Value</key>
+            <integer>143</integer>
+        </map>
+    <key>VertexShaderEnable</key>
+        <map>
+        <key>Comment</key>
+            <string>Enable/disable all GLSL shaders (debug)</string>
+        <key>Type</key>
+            <string>Boolean</string>
+        <key>Value</key>
+            <boolean>1</boolean>
+        </map>
+    <key>WLSkyDetail</key>
+        <map>
+        <key>Comment</key>
+            <string>Controls vertex detail on the WindLight sky.  Lower numbers will give better performance and uglier skies.</string>
+        <key>Type</key>
+            <string>U32</string>
+        <key>Value</key>
+            <integer>48</integer>
+        </map>
+    <key>WindowMaximized</key>
+        <map>
+        <key>Comment</key>
+            <string>SL viewer window maximized on login</string>
+        <key>Type</key>
+            <string>Boolean</string>
+        <key>Value</key>
+            <boolean>1</boolean>
+        </map>
+    </map>
+</llsd>

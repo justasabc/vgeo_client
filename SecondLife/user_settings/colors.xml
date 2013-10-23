@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<colors>
+    <color
+     name="AgentChatColor"
+     value="1 1 1 1" />
+    <color
+     name="DirectChatColor"
+     value="1 0.85 0.73 1" />
+    <color
+     name="EffectColor"
+     value="1 1 1 1" />
+    <color
+     name="HTMLLinkColor"
+     value="0.38 0.694 0.573 1" />
+    <color
+     name="NameTagBackground"
+     value="0 0 0 1" />
+    <color
+     name="ObjectChatColor"
+     value="0.38 0.694 0.573 1" />
+    <color
+     name="ScriptErrorColor"
+     value="1 0 0 1" />
+    <color
+     name="SystemChatColor"
+     value="0.75 0.75 0.75 1" />
+    <color
+     name="UserChatColor"
+     value="1 1 1 1" />
+    <color
+     name="llOwnerSayChatColor"
+     value="1 1 0.79 1" />
+</colors>

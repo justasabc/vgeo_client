@@ -1,0 +1,33 @@
+<llsd>
+    <map>
+    <key>util.agni.lindenlab.com</key>
+        <map>
+        <key>app_slurl_base</key>
+            <string>secondlife:///app</string>
+        <key>favorite</key>
+            <integer>1</integer>
+        <key>grid_login_id</key>
+            <string>util.agni.lindenlab.com</string>
+        <key>helper_uri</key>
+            <string>https://secondlife.com/helpers/</string>
+        <key>label</key>
+            <string>Agni</string>
+        <key>login_identifier_types</key>
+            <array>
+                <string>agent</string>
+            </array>
+        <key>login_page</key>
+            <string>http://viewer-login.agni.lindenlab.com/</string>
+        <key>login_uri</key>
+            <array>
+                <string>https://login.agni.lindenlab.com/cgi-bin/login.cgi</string>
+            </array>
+        <key>name</key>
+            <string>util.agni.lindenlab.com</string>
+        <key>slurl_base</key>
+            <string>http://maps.secondlife.com/secondlife/</string>
+        <key>system_grid</key>
+            <integer>1</integer>
+        </map>
+    </map>
+</llsd>

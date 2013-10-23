@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater positioning="cascading" ignore_ui_scale="false" legacy_header_height="225" can_minimize="true" can_close="true" can_resize="true" min_height="700" min_width="300" height="700" layout="topleft" name="Avatar" single_instance="true" help_topic="avatar" save_rect="true" save_visibility="true" title="LEAVE SOME WORDS HEAR" width="400">
+  <web_browser top="25" height="670" width="400" follows="all" name="avatar_picker_contents" trusted_content="true" />
+</floater>
